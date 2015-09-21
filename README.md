@@ -17,11 +17,13 @@ dropped. If you require this level of support, please use version [`0.3.0`].
 
 ## Browser Support
 
-* IE `9+` (Before `Edge` requires `Promise` polyfill)
-* Firefox `4+` (Before `29` requires `Promise` polyfill)
-* Safari `3+` (Before `7.1` requires `Promise` polyfill)
-* Chrome `*` (Before `33` requires `Promise` polyfill)
-* Opera `*` (Before `20` requires `Promise` polyfill)
+* IE/Edge `9+`
+* Firefox `4+`
+* Safari `3+`
+* Chrome `*`
+* Opera `*`
+
+We use [`any-promise`] to support any ES-2015-compatible Promise library or polyfill.
 
 ## Testing
 
@@ -57,4 +59,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [`domready`]: https://github.com/ded/domready "domReady"
+[`any-promise`]: https://github.com/kevinbeaty/any-promise "any-promise"
 [`0.3.0`]: https://github.com/KenPowers/dr-promise/tree/v0.3.0 "v0.3.0"
