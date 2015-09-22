@@ -23,6 +23,13 @@ dropped. If you require this level of support, please use version [`0.3.0`].
 * Chrome `*` (Before `33` requires `Promise` polyfill)
 * Opera `*` (Before `20` requires `Promise` polyfill)
 
+If you don’t want to use a global polyfill, you can pass a custom `Promise` constructor:
+
+```js
+const {Promise} = require('es6-promise');
+const domReady = require('dr-promise/custom-promise')(Promise);
+```
+
 ## Testing
 
 ```sh
