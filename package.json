@@ -2,7 +2,6 @@
   "name": "dr-promise",
   "version": "1.0.0",
   "description": "A promise which resolves when the DOM is ready.",
-  "main": "lib/index.js",
   "scripts": {
     "test": "beefy test"
   },
